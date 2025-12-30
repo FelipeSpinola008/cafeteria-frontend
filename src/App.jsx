@@ -1,5 +1,6 @@
-import { Header } from "./components/Header"
+import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
+import { CategoryBar } from "./components/CategoryBar";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       </div>
       <main>
         <Hero />
+        <CategoryBar />
       </main>
 
     </div>
