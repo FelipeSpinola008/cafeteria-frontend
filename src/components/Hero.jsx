@@ -3,7 +3,7 @@ import coffeBg from '../assets/coffeBg.png';
 
 export function Hero() {
     return (
-        <section className='relative h-screen w-full overflow-hidden bg-stone-950 flex items-center px-16'>
+        <section id='Hero' className='relative h-screen w-full overflow-hidden bg-stone-950 flex items-center px-16'>
             <div className='absolute inset-0 z-0'>
                 <img 
                 src={coffeBg}

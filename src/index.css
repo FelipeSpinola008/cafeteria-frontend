@@ -8,3 +8,36 @@
     /* cores personalizadas */
     --color-white-coffee: #E2D9C8;
 }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Estilização da Barra de Rolagem Global */
+::-webkit-scrollbar {
+  width: 10px; /* Largura da barra vertical */
+  height: 8px; /* Altura da barra horizontal (seu carrossel) */
+}
+
+/* O "trilho" da barra (fundo) */
+::-webkit-scrollbar-track {
+  background: transparent; /* Cor do fundo da página */
+}
+
+/* O "polegar" (a parte que desliza) */
+::-webkit-scrollbar-thumb {
+  background-color: #8b5e3c; /* Um marrom café */
+  border-radius: 20px;       /* Deixa ela arredondada e moderna */
+  border: 2px solid #f5f5f5; /* Cria um espaçamento ao redor do thumb */
+}
+
+/* Efeito ao passar o mouse ou clicar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #6f4e37; /* Marrom mais escuro no hover */
+}
