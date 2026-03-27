@@ -14,7 +14,5 @@ Esta é a primeira etapa de um projeto Fullstack de uma cafeteria artesanal. O f
 - **UI Customizada**: Estilização da barra de rolagem (scrollbar) para harmonia com a paleta de cores do projeto.
 - **Componentização**: Estrutura organizada para facilitar a futura integração com API e Banco de Dados.
 
-## 🔜 Próximos Passos
-- [ ] Desenvolvimento da API com Node.js/Express.
-- [ ] Persistência de dados com Banco de Dados.
-- [ ] Dashboard Administrativo para gerenciamento de produtos.
+## Teste meu Projeto!
+[☕CoffeDev](https://cafeteria-frontend-theta.vercel.app/)
